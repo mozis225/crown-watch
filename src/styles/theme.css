@@ -1,0 +1,61 @@
+:root {
+
+  /* Couleurs */
+  --background: #0D0D0D;
+  --surface: #181818;
+  --gold: #D4AF37;
+  --text: #F5F5F5;
+  --muted: #9A9A9A;
+
+  /* Bordures */
+  --radius: 12px;
+
+  /* Animation */
+  --transition: .3s;
+
+}
+.categories-section {
+  padding: 100px 80px;
+}
+
+.categories-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.categories-title h2 {
+  font-size: 42px;
+  color: var(--text);
+}
+
+.categories-title p {
+  color: var(--muted);
+  margin-top: 15px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .categories-section {
+    padding: 60px 20px;
+  }
+}
+.categories-section {
+  padding: 100px 80px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .categories-section {
+    padding: 60px 20px;
+  }
+}

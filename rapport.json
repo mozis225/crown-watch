@@ -1,0 +1,30 @@
+{
+  "tier": "team",
+  "partial_results": false,
+  "shown_vulnerabilities": 0,
+  "total_vulnerabilities": 0,
+  "hidden_locked_count": 0,
+  "frozen_resolved_all": false,
+  "upgrade_hint": null,
+  "scan_id": "165ff03a2e6d40d3acc8f5b557e109c8",
+  "project_path": "C:\\Users\\HP\\crown-watch",
+  "scanned_at": "2026-07-12T18:17:10.783305+00:00",
+  "scanned_files_count": 46,
+  "scan_duration_seconds": 0.44,
+  "score": {
+    "value": 100,
+    "grade": "A",
+    "label": "Excellent",
+    "delta": 0,
+    "new_issues": 0,
+    "resolved_issues": 0
+  },
+  "policy": {
+    "fail_on": null,
+    "min_score": null
+  },
+  "severity_summary": {},
+  "profile": null,
+  "vulnerability_count": 0,
+  "vulnerabilities": []
+}

@@ -1,0 +1,230 @@
+.product-card{
+
+    position:relative;
+
+    background:var(--surface);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s ease;
+    cursor: pointer;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.45);
+
+}
+
+.image-container{
+
+    height:320px;
+
+    background:#111;
+
+    overflow:hidden;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.image-container img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.product-card:hover .image-container img{
+
+    transform:scale(1.08);
+
+}
+
+.product-content{
+
+    padding:22px;
+
+}
+
+.category{
+
+    color:var(--muted);
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    font-size:13px;
+
+    margin-bottom:10px;
+
+}
+
+.product-content h3{
+
+    font-size:28px;
+
+    color:var(--text);
+
+    margin-bottom:22px;
+
+}
+
+.prices{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+    margin-bottom:25px;
+
+}
+
+.price{
+
+    font-size:30px;
+
+    color:var(--gold);
+
+    font-weight:700;
+
+}
+
+.old-price{
+
+    color:#6f6f6f;
+
+    text-decoration:line-through;
+
+    font-size:16px;
+
+}
+
+.cart-btn{
+
+    width:100%;
+
+    height:56px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:var(--gold);
+
+    color:black;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.cart-btn:hover{
+
+    background:white;
+
+}
+
+.favorite-btn{
+
+    position:absolute;
+
+    top:18px;
+
+    right:18px;
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(0,0,0,.45);
+
+    backdrop-filter:blur(8px);
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    z-index:2;
+
+}
+
+.favorite-btn:hover{
+
+    background:var(--gold);
+
+    color:black;
+
+}
+
+.badge{
+
+    position:absolute;
+
+    top:18px;
+
+    left:18px;
+
+    background:var(--gold);
+
+    color:black;
+
+    padding:6px 14px;
+
+    border-radius:50px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    z-index:2;
+
+}
+.favorite-btn.active {
+  background: var(--gold, #d4af37);
+  color: black;
+}

@@ -1,0 +1,126 @@
+.wishlist-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1500;
+}
+
+.wishlist-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  max-width: 100%;
+  height: 100vh;
+  background: #0d0d0d;
+  z-index: 1600;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.wishlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.wishlist-header h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.wishlist-empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 60px 24px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.wishlist-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.wishlist-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.wishlist-item-info {
+  flex: 1;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.wishlist-item-info h4 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wishlist-item-info p {
+  color: var(--gold, #d4af37);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.wishlist-item-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wishlist-add-cart,
+.wishlist-remove {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishlist-add-cart:hover {
+  background: var(--gold, #d4af37);
+  color: black;
+}
+
+.wishlist-remove {
+  color: #f87171;
+}
+
+.wishlist-remove:hover {
+  background: rgba(248, 113, 113, 0.15);
+}

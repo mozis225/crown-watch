@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "./styles/theme.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: "Jost", sans-serif;
+}
