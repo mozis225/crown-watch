@@ -56,3 +56,10 @@ padding:60px 20px;
 .featured-status.error {
   color: #f87171;
 }
+@media (max-width: 600px) {
+  .products-grid,
+  .shop-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}

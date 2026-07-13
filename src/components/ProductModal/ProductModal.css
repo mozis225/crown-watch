@@ -181,14 +181,57 @@
 @media (max-width: 768px) {
   .modal-content {
     grid-template-columns: 1fr;
-    max-height: 90vh;
+    max-height: 92vh;
     overflow-y: auto;
   }
+
   .modal-image {
-    min-height: 280px;
+    min-height: 200px;
   }
-}
-.modal-fav-btn.active {
-  background: var(--gold, #d4af37);
-  color: black;
+
+  .modal-info {
+    padding: 24px 20px;
+  }
+
+  .modal-title {
+    font-size: 22px;
+    max-width: 100%;
+  }
+
+  .modal-meta {
+    margin-bottom: 10px;
+  }
+
+  .modal-rating {
+    margin-bottom: 16px;
+  }
+
+  .modal-prices {
+    margin-bottom: 14px;
+  }
+
+  .modal-price {
+    font-size: 22px;
+  }
+
+  .modal-stock {
+    margin-bottom: 18px;
+  }
+
+  .modal-divider {
+    margin-bottom: 16px;
+  }
+
+  .modal-row {
+    margin-bottom: 12px;
+  }
+
+  .modal-actions {
+    margin-top: 20px;
+  }
+
+  .modal-add-btn,
+  .modal-fav-btn {
+    height: 48px;
+  }
 }

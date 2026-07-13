@@ -102,9 +102,30 @@
 
 @media (max-width: 768px) {
   .search-bar-row {
-    padding: 16px 20px;
+    padding: 14px 16px;
+    gap: 10px;
   }
+
+  .search-bar-row input {
+    font-size: 14px;
+    min-width: 0;
+  }
+
   .search-results {
-    padding: 0 20px 20px;
+    padding: 0 16px 16px;
+    max-height: 60vh;
+  }
+
+  .search-result-item {
+    padding: 10px 6px;
+    gap: 10px;
+  }
+
+  .search-result-info h4 {
+    font-size: 13px;
+  }
+
+  .search-result-price {
+    font-size: 12px;
   }
 }

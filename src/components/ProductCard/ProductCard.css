@@ -228,3 +228,49 @@
   background: var(--gold, #d4af37);
   color: black;
 }
+@media (max-width: 600px) {
+  .image-container {
+    height: 160px;
+  }
+
+  .product-content {
+    padding: 12px;
+  }
+
+  .category {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+
+  .product-content h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .old-price {
+    font-size: 12px;
+  }
+
+  .cart-btn {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .badge {
+    font-size: 10px;
+    padding: 4px 10px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .favorite-btn {
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    right: 10px;
+  }
+}
