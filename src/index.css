@@ -5,9 +5,15 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background: var(--background);
   color: var(--text);
   font-family: "Jost", sans-serif;
+  overflow-x: hidden;
 }
+
