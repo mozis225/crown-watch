@@ -146,3 +146,8 @@
 .checkout-btn:hover {
   background: white;
 }
+@media (max-width: 480px) {
+  .cart-drawer {
+    width: 100%;
+  }
+}
