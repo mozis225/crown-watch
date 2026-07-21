@@ -113,3 +113,12 @@
     gap: 12px;
   }
 }
+@media (max-width: 400px) {
+  .shop {
+    padding: 110px 12px 40px;
+  }
+
+  .shop-grid {
+    gap: 10px;
+  }
+}

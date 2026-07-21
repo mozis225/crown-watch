@@ -274,3 +274,32 @@
     right: 10px;
   }
 }
+@media (max-width: 400px) {
+  .product-content {
+    padding: 10px;
+  }
+
+  .product-content h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .old-price {
+    font-size: 11px;
+  }
+
+  .cart-btn {
+    height: 36px;
+    font-size: 11px;
+    gap: 6px;
+  }
+
+  .cart-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+}
